@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    color: red;
+}
+
+.Product_and {
+    margin: 40px auto;
+    text-align: center;
+
+}
+
+.Product_and h3 {
+
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-evenly;
+    margin-left: auto;
+    gap: 25px;
+}
+
+button {
+    color: wheat;
+    background-color: rgba(238, 66, 72, 1);
+    border: 0;
+    border-radius: 8px;
+    width: 20%;
+    height: 15%;
+}
+
+.about {
+    display: flex;
+    max-width: 1200px;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-top: 50px;
+    gap: 25px;
+    font-size: 12px;
+}
+
+.logo p {
+    color: rgba(144, 143, 143, 0.962);
+
+}
+
+.about .contact a {
+    text-decoration: none;
+    color: rgba(144, 143, 143, 0.962);
+
+}
+
+.footer {
+    background-color: rgba(238, 66, 72, 1);
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    height: 40px;
+    padding-top: 10px;
+}
